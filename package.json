@@ -5,7 +5,6 @@
   "license": "MIT",
   "engines": {
     "node": "11.4.0",
-    "yarn": "1.12.3",
     "npm": "6.4.1"
   },
   "scripts": {
