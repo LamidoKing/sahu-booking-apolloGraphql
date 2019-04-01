@@ -59,9 +59,8 @@ import schemaDirectives from './CustomDirective'
     })
 
     server.applyMiddleware({ app, cors: false })
-    server.listen({ port: process.env.PORT || PORT })
 
-    app.listen({ port: process.env.PORT || PORT }, () =>
+    app.listen({ port: PORT }, () =>
       console.log(`http://localhost:${PORT}${server.graphqlPath}`)
     )
   } catch (e) {
