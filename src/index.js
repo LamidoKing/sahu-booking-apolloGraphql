@@ -7,7 +7,7 @@ import typeDefs from './typeDefs'
 import resolvers from './resolvers'
 import cors from 'cors'
 import {
-  PORT, PROD, DB_USERNAME, DB_PASSWORD,
+  PROD, DB_USERNAME, DB_PASSWORD,
   DB_HOST, DB_PORT, DB_NAME, SESS_NAME,
   SESS_SECRET, SESS_LIFETIME, REDI_HOST,
   REDIS_PORT, REDIS_PASSWORD
@@ -23,6 +23,7 @@ import schemaDirectives from './CustomDirective'
       }
     )
 
+    const PORT = process.env.PORT || 4000
     const app = express()
 
     app.disable('x-powered-by')

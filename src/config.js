@@ -1,5 +1,4 @@
 export const {
-  PORT = process.env.PORT || 4000,
   NODE_ENV = 'development',
   DB_USERNAME = 'phantom',
   DB_PASSWORD = 'sahu1989',
