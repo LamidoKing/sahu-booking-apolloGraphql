@@ -16,7 +16,7 @@
     "express-session": "^1.15.6",
     "graphql": "^14.0.2",
     "joi": "^14.0.4",
-    "mongoose": "^5.4.5",
+    "mongoose": "^5.7.5",
     "redis": "^2.8.0"
   },
   "devDependencies": {
